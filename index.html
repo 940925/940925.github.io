@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>LÚA</title>
+</head>
+
+<!--Navegadador-->
+
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="images/Logo-02.png" alt="Logo"></a></div>
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+
+<body>
+
+<!--Slider-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/Alas.jpg"></div>
+          <div class="swiper-slide"><img src="images/Fotomural.jpg"></div>
+          <div class="swiper-slide"><img src="images/Cuadros.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  <!--Javascript-->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+<!--fin Slider-->
+
+<!-- .cd-main-content -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+ <script>
+   if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+ </script>
+ <script src="js/main.js"></script> <!-- Resource jQuery -->  
+
+</body>
+
+
+
+<!--pata--> 
+<footer class="pata">
+  <div class="lua">
+      <h4>Acerca de LÚA</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis odio voluptatum sed id 
+          cum perferendis fuga excepturi nobis at consequatur
+          placeat maxime, dolorum aspernatur, tempore rem ea possimus ut.
+      </p>
+  </div>
+
+  <div class="lua">
+      <h4>Contacto</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis odio voluptatum sed id 
+          cum perferendis fuga excepturi nobis at consequatur
+          placeat maxime, dolorum aspernatur, tempore rem ea possimus ut.
+      </p>
+  </div>
+  <div class="lua">
+      <h4>Redes sociales</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis odio voluptatum sed id 
+          cum perferendis fuga excepturi nobis at consequatur
+          placeat maxime, dolorum aspernatur, tempore rem ea possimus ut.
+      </p>
+  </div> 
+</footer>
+
+<!--fin pata-->
+
+</html>
